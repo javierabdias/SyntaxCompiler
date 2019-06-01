@@ -1,0 +1,10 @@
+
+program prueba2
+
+word inicio
+
+inicio = <Hola.mundo>
+
+loop 8
+    write inicio
+endloop

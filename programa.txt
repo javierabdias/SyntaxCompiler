@@ -1,0 +1,29 @@
+
+program prueba
+
+word nombre
+num edad
+char genero
+bool medad
+
+write <Ingrese.su.nombre>
+read nombre
+
+write <Ingrese.su.edad:>
+read edad
+
+write <Ingrese.genero.(H.o.M)>
+read genero
+
+if (edad>17) then
+    medad = true
+else
+    medad = false
+endif
+
+if (genero='H') then
+    loop 5
+        write <Eres.hombre.y.mayor.de.edad.>
+    endloop
+endif
+
